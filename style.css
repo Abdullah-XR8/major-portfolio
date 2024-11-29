@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background-color: gray;
+  width: 210px;
+  font-family: "Fredoka", sans-serif;
+  height: 180vh;
+}
+
+nav ul li {
+  list-style: none;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.main {
+  /* background-color: green; */
+  width: 85vw;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.infoContainer {
+  /* background-color: rgb(33, 17, 88); */
+  height: 60vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.devinfo .hello {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.devinfo .name {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.devinfo .about {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.infoContainer .devpic img {
+  height: 60vh;
+}
+
+.more {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 1.5rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 7px;
+  cursor: pointer;
+  border: none;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+/*! CSS FOR CONTACT PAGE  */
+
+.mainform {
+  display: flex;
+}
+
+.contactform h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contactform form {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.contactform form .form-text {
+  margin-top: 1rem;
+}
+
+.contactform form #phone {
+  margin-top: 1rem;
+}
+
+.contactform form .form-check {
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+  color: black;
+  font-size: 1rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: dodgerblue;
+  background-color: black;
+}
+
+.contactform form #ClientEmail {
+  height: 2rem;
+  width: 11rem;
+}
+
+.contactform form #ClientPhone {
+  height: 2rem;
+  width: 11rem;
+}
+
+.contact-map {
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+
+.contactform form #project{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+
+.contactform form .name {
+  margin-bottom: 1rem;
+}
+
+.contactform form #inqury {
+  margin-top: 1rem;
+}
+
+.contactform form #Clientinqury {
+  height: 2rem;
+  width: 11rem;
+}
+
+.Blogscontainer {
+  margin: 4rem;
+}
+
+.blogitem {
+  margin-top: 3rem;
+}
+
+.blogitem h2 {
+  margin-left: 16rem;
+  margin-bottom: 1rem;
+}
